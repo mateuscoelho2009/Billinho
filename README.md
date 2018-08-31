@@ -41,7 +41,7 @@ A API deve ser feita com base nas entidades `Instituição, Aluno e Matrícula`.
 | Valor total do curso em reais    | Decimal           | Não pode estar vazio |
 | Quantidade de faturas            | Inteiro           | Não pode estar vazio |
 | Dia de vencimento das faturas    | Inteiro           | Não pode estar vazio |
-| ID da Instiuição                 | Chave Estrangeira | Não pode estar vazio |
+| ID da Instituição                | Chave Estrangeira | Não pode estar vazio |
 | ID do aluno                      | Chave Estrangeira | Não pode estar vazio |
 
 Requisitos
