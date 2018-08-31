@@ -59,4 +59,4 @@ Dadas as entidades descritas acima, suas tarefas são:
 - Desenvolva sua aplicação utilizando um repositório do GitHub e nos envie o link do repo ao finalizar o projeto.
 - Demonstrar, da maneira que você achar melhor que seu projeto funciona como especificado.
 
-Esse documento contém os requisitos minímos, mas fique a vontade para adicionar funcionalidades extras na API que você ache relevante!
+Esse documento contém os requisitos mínimos, mas fique a vontade para adicionar funcionalidades extras na API que você ache relevante!
