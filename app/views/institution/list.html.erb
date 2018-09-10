@@ -1,0 +1,13 @@
+<% if @institutions.blank? %>
+<p>There are not any institutions currently in the system.</p>
+<% else %>
+<p>These are the current institutions in our system</p>
+
+<ul id = "institutions">
+   <% @institutions.each do |c| %>
+   <li><%= link_to c.title, {:action => 'show', :id => c.id} -%></li>
+   <% end %>
+</ul>
+
+<% end %>
+<p><%= link_to "Add new Institution", {:action => 'new' }%></p>

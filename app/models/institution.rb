@@ -1,6 +1,6 @@
 class Institution < ApplicationRecord
   validates :name, :cnpj, :kind, presence: true
-  validates :cnpj, numericality: { only_integer: true, greater_than: 0, "CNPJ not numeric" }
+  validates :cnpj, numericality: { only_integer: true, greater_than: 0 }
   validates :name, :cnpj, length: { maximum: 50, too_long: "%{count} characters is the maximum allowed" }
   validates :name, :cnpj, uniqueness: { case_sensitive: false }
 

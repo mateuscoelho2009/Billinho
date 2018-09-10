@@ -1,0 +1,16 @@
+<h1>Add new book</h1>
+
+<%= form_tag :action => 'create' do %>
+<p><label for = "institution_name">Name</label>:
+
+<%= text_field 'institutions', 'name' %></p>
+<p><label for = "institution_cnpj">CNPJ</label>:
+
+<%= text_field 'institutions', 'cnpj' %></p>
+<p><label for = "institution_kind">Subject</label>:
+
+<%= text_field 'institutions', 'kind' %></p>
+<%= submit_tag "Create" %>
+
+<% end -%>
+<%= link_to 'Back', {:action => 'list'} %>
