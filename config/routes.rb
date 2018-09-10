@@ -4,6 +4,9 @@ Rails.application.routes.draw do
 
   end
 
+  	get 'institution/index'
+  	root 'institution#index'
+
 	get 'institution/list'
 	get 'institution/new'
 	post 'institution/create'

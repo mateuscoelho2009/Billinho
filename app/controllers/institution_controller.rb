@@ -1,4 +1,8 @@
 class InstitutionController < ApplicationController
+	def index
+		
+	end
+
 	def list
 		@institutions = Institution.all
 	end
